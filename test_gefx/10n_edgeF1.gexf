@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2020-02-03">
+    <creator>NetworkX 2.4</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="route" type="long" />
+    </attributes>
+    <nodes>
+      <node id="10" label="1" />
+      <node id="20" label="2" />
+      <node id="30" label="3" />
+      <node id="40" label="4" />
+      <node id="50" label="5" />
+      <node id="60" label="6" />
+      <node id="70" label="7" />
+      <node id="80" label="8" />
+      <node id="90" label="9" />
+      <node id="100" label="10" />
+      <node id="110" label="11" />
+    </nodes>
+    <edges>
+      <edge id="0" source="10" target="20">
+        <attvalues>
+          <attvalue for="0" value="20" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="10" target="100">
+        <attvalues>
+          <attvalue for="0" value="38" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="20" target="30">
+        <attvalues>
+          <attvalue for="0" value="24" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="30" target="40">
+        <attvalues>
+          <attvalue for="0" value="28" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="40" target="50">
+        <attvalues>
+          <attvalue for="0" value="32" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="50" target="60">
+        <attvalues>
+          <attvalue for="0" value="33" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="60" target="70">
+        <attvalues>
+          <attvalue for="0" value="34" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="70" target="80">
+        <attvalues>
+          <attvalue for="0" value="35" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="80" target="90">
+        <attvalues>
+          <attvalue for="0" value="36" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="90" target="100">
+        <attvalues>
+          <attvalue for="0" value="37" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
